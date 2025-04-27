@@ -47,16 +47,17 @@ Data Visualization | Predictive Modeling | Business Intelligence | Marketing Ana
 
 | Project | Description | Tools |
 | :--- | :--- | :--- |
-| [Project Title 1](#) | Brief one-line description about what the project does or solves. | Python, Power BI |
-| [Project Title 2](#) | Brief one-line description about what the project does or solves. | SQL, Tableau |
+| [Home Credit EDA](https://github.com/Sudeeptha21/Home_Credit_EDA) | Predicting credit defaultors using EDA using CATBOOST model. | Python |
+| [House-Price-Predictor](https://github.com/Sudeeptha21/HousePrice-Predictor) | Predicting house prices using linear regression. | R |
+| [Impact of Weather on Traffic](#) | Analysis of the effect of weather on Traffic data.. | Python, Airflow, SQL, PowerBI, BigQuery  |
 
 ---
 
 ## 🧩 Micro Projects
 
-- [Project Name 1](#) — quick EDA on [dataset name], findings around [topic].
-- [Project Name 2](#) — built a regression model to predict [target variable].
-- [Project Name 3](#) — SQL case study on customer churn analysis.
+- [Diabetes Predictor](https://github.com/Sudeeptha21/Diabetes_Recognition) — Predicts possibility of diabetes in a patient based on health information.
+- [Air Quality Index Analysis](https://github.com/Sudeeptha21/Air-Quality-Index-Analysis) — Analysis of air quality index using SQL.
+- [Health Management](https://github.com/Sudeeptha21/health_management) — Basic fitness tracker that saves diets and workout routines.
 
 ---
 
