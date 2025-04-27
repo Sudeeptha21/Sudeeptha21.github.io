@@ -60,18 +60,10 @@ Data Visualization | Predictive Modeling | Business Intelligence | Marketing Ana
 
 ---
 
-## 📈 GitHub Stats
-
-![Your Name's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sudeeptha21&show_icons=true&theme=default)
-
----
-
 ## 📫 Let's Connect!
 
-- 📧 [your.email@example.com](mailto:your.email@example.com)
-- 💼 [LinkedIn Profile](https://www.linkedin.com/in/your-linkedin/)
-- 🌐 [Portfolio Website (if you have one)](https://yourwebsite.com)
-
+- 📧 [your.email@example.com](ssudeeptha21@gmail.com)
+<!-- - 💼 [LinkedIn Profile](https://www.linkedin.com/in/your-linkedin/) -->
 ---
 
 *Always learning, always growing!* 🌱
