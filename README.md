@@ -62,7 +62,7 @@ Data Visualization | Predictive Modeling | Business Intelligence | Marketing Ana
 
 ## 📈 GitHub Stats
 
-![Your Name's GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=default)
+![Your Name's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sudeeptha21&show_icons=true&theme=default)
 
 ---
 
