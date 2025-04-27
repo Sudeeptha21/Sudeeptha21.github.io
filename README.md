@@ -1,11 +1,3 @@
-# data scientist
-###Education
-business analyst @ uni of utah
-### Work Experience
-Data analyst at LAD 360 Solutions
-
-- Big Impact Projects
-- -Micro Projects
 # 👋 Hi, I'm Sudeeptha Sivarajan!
 
 🎓 I'm a Master of Science in Business Analytics student at the **University of Utah**, passionate about turning data into actionable insights and creating impactful business solutions.
