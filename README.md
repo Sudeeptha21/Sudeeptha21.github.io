@@ -23,7 +23,7 @@
 *Dates ( May 2023 – May 2024)*  
 - Developed dashboards and reports to monitor campaign performance and optimize digital marketing strategies.
 - Conducted data wrangling and exploratory data analysis to uncover business opportunities.
-- Automated repetitive reporting processes, reducing manual workload by X%.
+- Automated repetitive reporting processes, reducing manual workload by 12%.
 - Tools used: **SQL, Python, Power BI, Excel, Google Analytics**
 
 ---
@@ -66,6 +66,3 @@ Data Visualization | Predictive Modeling | Business Intelligence | Marketing Ana
 - 📧 [your.email@example.com](ssudeeptha21@gmail.com)
 <!-- - 💼 [LinkedIn Profile](https://www.linkedin.com/in/your-linkedin/) -->
 ---
-
-*Always learning, always growing!* 🌱
-
