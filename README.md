@@ -1,6 +1,6 @@
 #  Hi, I'm Sudeeptha Sivarajan!
 
-🎓 I'm a Master of Science in Business Analytics student at the **University of Utah**, passionate about turning data into actionable insights and creating impactful business solutions.
+🎓 I'm pursuing Master of Science in Business Analytics at the **University of Utah**, passionate about turning data into actionable insights and creating impactful business solutions.
 
 💼 I previously worked as a **Data Analyst** at **LAD 360 Solutions**, where I helped drive data-driven decision-making and streamlined reporting processes.
 
@@ -39,7 +39,7 @@
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 
 **Interests**  
-Data Visualization | Predictive Modeling | Business Intelligence | Marketing Analytics | Machine Learning
+Data Visualization | Predictive Modeling | Business Intelligence | Supply Chain Analytics | Machine Learning | Data Engineering | Big Data Analytics
 
 ---
 
