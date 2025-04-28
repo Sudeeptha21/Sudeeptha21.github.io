@@ -47,9 +47,9 @@ Data Visualization | Predictive Modeling | Business Intelligence | Marketing Ana
 
 | Project | Description | Tools |
 | :--- | :--- | :--- |
-| [Home Credit EDA](https://github.com/Sudeeptha21/Home_Credit_EDA) | Predicting credit defaultors using EDA using CATBOOST model. | Python |
-| [House-Price-Predictor](https://github.com/Sudeeptha21/HousePrice-Predictor) | Predicting house prices using linear regression. | R |
-| [Impact of Weather on Traffic](#) | Analysis of the effect of weather on Traffic data.. | Python, Airflow, SQL, PowerBI, BigQuery  |
+| [Home Credit Default Risk Perdictor](https://github.com/Sudeeptha21/home-credit-default-predictor) | Predicting credit defaulters using EDA using CATBOOST model. | Python |
+| [House Price Predictor](https://github.com/Sudeeptha21/HousePrice-Predictor) | Predicting house prices using linear regression. | R |
+| [Impact of Weather on Traffic](https://github.com/Sudeeptha21/impact-of-weather-on-traffic) | Analysis of the effect of weather on Traffic data.. | Python, Airflow, SQL, PowerBI, BigQuery  |
 
 ---
 
