@@ -64,5 +64,5 @@ Data Visualization | Predictive Modeling | Business Intelligence | Marketing Ana
 ## 📫 Let's Connect!
 
 - 📧 [your.email@example.com](ssudeeptha21@gmail.com)
-<!-- - 💼 [LinkedIn Profile](https://www.linkedin.com/in/your-linkedin/) -->
+- 💼 [LinkedIn Profile](https://www.linkedin.com/in/sudeeptha-sivarajan-8649081b7/)
 ---
