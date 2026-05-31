@@ -68,8 +68,8 @@ export const portfolioData = {
       solution:
         "I designed a pipeline using Kafka, Airflow, BigQuery, and Tableau to ingest, transform, and visualize weather and traffic indicators in a structured format for operational analysis.",
       stack: ["Kafka", "Airflow", "BigQuery", "Tableau", "Streaming Analytics"],
-      image: "/projects/traffic-risk-primary-v2.png",
-      secondaryImage: "/projects/traffic-risk-secondary-v2.png",
+      image: "/projects/traffic-risk-primary.png",
+      secondaryImage: "/projects/traffic-risk-secondary.png",
       imageAlt: "Placeholder project visual for the Traffic Risk Intelligence Dashboard",
       links: [{ label: "View GitHub Repo", href: "https://github.com/Sudeeptha21/impact-of-weather-on-traffic" }],
     },
