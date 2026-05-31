@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #050505;
+  --bg-soft: #0b0b0b;
+  --panel: rgba(14, 14, 14, 0.92);
+  --panel-strong: rgba(10, 10, 10, 0.98);
+  --text: #f3f7fb;
+  --muted: #9ea3ad;
+  --line: rgba(255, 255, 255, 0.08);
+  --accent: #63e6be;
+  --accent-strong: #f7b267;
+  --shadow: 0 18px 48px rgba(0, 0, 0, 0.22);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(180deg, #050505 0%, #080808 100%);
+  color: var(--text);
+  font-family: var(--font-sans), sans-serif;
+}
+
+::selection {
+  background: rgba(99, 230, 190, 0.28);
+}
+
+.font-display {
+  font-family: var(--font-display), serif;
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(4px);
+}
+
+.panel-strong {
+  background: var(--panel-strong);
+}
+
+.section-anchor {
+  scroll-margin-top: 6rem;
+}
+
+.animated-rise {
+  animation: rise 0.8s ease-out both;
+}
+
+.animated-fade {
+  animation: fadeIn 1s ease-out both;
+}
+
+.aurora {
+  pointer-events: none;
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(120px);
+  opacity: 0.12;
+}
+
+.aurora-one {
+  top: 4rem;
+  left: -5rem;
+  width: 22rem;
+  height: 22rem;
+  background: rgba(99, 230, 190, 0.1);
+}
+
+.aurora-two {
+  top: 32rem;
+  right: -6rem;
+  width: 28rem;
+  height: 28rem;
+  background: rgba(247, 178, 103, 0.08);
+}
+
+.viewer-panel {
+  max-height: calc(100vh - 3rem);
+}
+
+.viewer-stage {
+  max-height: calc(100vh - 11rem);
+}
+
+.viewer-canvas {
+  min-width: 720px;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animated-rise,
+  .animated-fade {
+    animation: none;
+  }
+}
