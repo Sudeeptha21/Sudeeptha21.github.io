@@ -63,7 +63,7 @@ export function TopNav({ links }) {
   );
 }
 
-export function HeroSection({ hero, stats }) {
+export function HeroSection({ hero, stats, links }) {
   return (
     <section id="home" className="section-anchor mx-auto max-w-7xl px-6 pb-18 pt-16 sm:px-10 sm:pt-24">
       <div className="grid items-start gap-10 lg:grid-cols-[1.2fr_0.8fr]">
@@ -93,6 +93,19 @@ export function HeroSection({ hero, stats }) {
             >
               Contact me
             </a>
+          </div>
+          <div className="mt-6 flex flex-wrap gap-3">
+            {links.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-white/10 bg-white/4 px-4 py-2 text-sm font-semibold text-white transition hover:border-[var(--accent)] hover:text-[var(--accent)]"
+              >
+                {link.label}
+              </a>
+            ))}
           </div>
           <div className="mt-10 grid gap-4 sm:grid-cols-3">
             {stats.map((stat) => (
@@ -473,9 +486,9 @@ export function ContactSection({ contact }) {
         <SectionHeading
           eyebrow="Contact"
           title="Let’s talk about analyst roles, data products, and decision-focused projects"
-          description="Use the form below so visitors can reach out without a public email address appearing on the page."
+          description=""
         />
-        <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr]">
+        <div className="grid gap-8">
           <form onSubmit={handleSubmit} className="space-y-4">
             <input type="hidden" name="_subject" value="New portfolio inquiry" />
             <div className="grid gap-4 sm:grid-cols-2">
@@ -527,9 +540,6 @@ export function ContactSection({ contact }) {
             >
               {status === "submitting" ? "Sending..." : "Submit inquiry"}
             </button>
-            <p className="text-sm leading-6 text-[var(--muted)]">
-              This form is connected through Formspree, so inquiries can reach you without exposing your email address on the page.
-            </p>
             {message ? (
               <p
                 className={`text-sm leading-6 ${
@@ -540,31 +550,6 @@ export function ContactSection({ contact }) {
               </p>
             ) : null}
           </form>
-          <div className="space-y-4">
-            <p className="text-sm font-semibold uppercase tracking-[0.28em] text-[var(--accent-strong)]">Elsewhere online</p>
-            <p className="text-base leading-7 text-[var(--muted)]">
-              These links give recruiters and collaborators a quick way to verify your background before reaching out.
-            </p>
-            <div className="flex flex-wrap gap-3">
-              {contact.links.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="rounded-full border border-white/10 bg-white/4 px-4 py-2 text-sm font-semibold text-white transition hover:border-[var(--accent)] hover:text-[var(--accent)]"
-                >
-                  {link.label}
-                </a>
-              ))}
-            </div>
-            <div className="rounded-[1.5rem] border border-white/8 bg-white/4 p-5">
-              <p className="text-sm uppercase tracking-[0.22em] text-[var(--accent)]">Privacy-first contact</p>
-              <p className="mt-3 text-sm leading-7 text-[var(--muted)]">
-                Your email is no longer shown on the page. This section is now designed for form-based outreach instead of direct email exposure.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>

@@ -17,7 +17,7 @@ export default function Home() {
       <div className="aurora aurora-one" />
       <div className="aurora aurora-two" />
       <TopNav links={portfolioData.navLinks} />
-      <HeroSection hero={portfolioData.hero} stats={portfolioData.stats} />
+      <HeroSection hero={portfolioData.hero} stats={portfolioData.stats} links={portfolioData.contact.links} />
       <SectionShell>
         <AboutSection about={portfolioData.about} strengths={portfolioData.strengths} />
         <ProjectsSection projects={portfolioData.projects} />
