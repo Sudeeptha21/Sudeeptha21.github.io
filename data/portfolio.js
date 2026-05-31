@@ -53,7 +53,7 @@ export const portfolioData = {
       solution:
         "I combined SQL analysis, Python-based exploration, and DAX-powered Power BI reporting to isolate weak funnel stages and support A/B testing, contributing to a 10 percent lift in video completion and 8 percent higher CTR.",
       stack: ["SQL", "Python", "Power BI", "DAX", "A/B Testing"],
-      image: "/projects/watchsports.svg",
+      image: "/projects/watchsports.png",
       imageAlt: "Placeholder project visual for the WatchSports.com analytics case study",
       links: [{ label: "View GitHub Repo", href: "https://github.com/Sudeeptha21/digital-marketing-analytics-watchsports" }],
     },
@@ -84,7 +84,7 @@ export const portfolioData = {
       solution:
         "I used PostgreSQL, Python, and Tableau to map behavior patterns, prioritize likely recovery levers, and estimate a projected $430K ARR opportunity with a 15 percent adoption lift.",
       stack: ["PostgreSQL", "Python", "Tableau", "Churn Analysis", "Revenue Modeling"],
-      image: "/projects/swire-coke.svg",
+      image: "/projects/swire.png",
       imageAlt: "Placeholder project visual for the Swire Coca-Cola analysis",
       links: [{ label: "View GitHub Repo", href: "https://github.com/Sudeeptha21/swire-cocacola-project" }],
     },
