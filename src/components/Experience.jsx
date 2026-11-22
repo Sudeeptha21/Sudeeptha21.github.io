@@ -3,6 +3,16 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
+    role: 'Strategic Operations Manager',
+    company: 'Grant Associates',
+    duration: 'Present',
+    points: [
+      'Leading end-to-end operational strategy and process improvement initiatives across workforce development programs.',
+      'Partnering cross-functionally with program, data, and leadership teams to build scalable systems that improve service delivery and participant outcomes.',
+      'Driving data-informed decision making by translating operational metrics into actionable reporting for senior stakeholders.'
+    ]
+  },
+  {
     role: 'Learner Analytics and Data Associate',
     company: 'Kay-Zen Research Consultants',
     duration: 'Feb 2026 - Present',

@@ -25,12 +25,12 @@ const About = () => {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem' }}>
             
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-              <h3 style={{ fontSize: '1.75rem', color: 'var(--text-primary)' }}>Bridging the gap between raw data and actionable strategy.</h3>
+              <h3 style={{ fontSize: '1.75rem', color: 'var(--text-primary)' }}>Bridging the gap between operations, data, and product.</h3>
               <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>
-                I am a Business Analyst with over 4 years of experience building AI-driven data solutions across startups and research environments. My specialty lies in translating complex, multi-source data into scalable systems and financial models that senior stakeholders rely on.
+                I'm a Strategic Operations Manager with a background in data analytics and product thinking. Currently at Grant Associates, I build operational systems that make programs run better and decisions happen faster.
               </p>
               <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>
-                Fluent across SQL, Python, Looker, Snowflake, and modern LLM-powered workflows, I build infrastructure and surface insights that drive tangible user and business impact. I recently completed my Master of Science in Business Analytics at the University of Utah.
+                With a Master of Science in Business Analytics from the University of Utah and hands-on experience across SQL, Python, Looker, and modern LLM workflows, I bring a rare combination of analytical depth and operational instinct to every problem I work on.
               </p>
             </div>
             

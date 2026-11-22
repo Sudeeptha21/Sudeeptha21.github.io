@@ -8,17 +8,6 @@ export const projects = [
     results: ['+10% video completion rate', '+8% CTR within two campaign cycles'],
     techStack: ['SQL', 'Python', 'Power BI', 'DAX'],
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000',
-    link: '#' // Placeholder link
-  },
-  {
-    id: 'traffic-risk',
-    title: 'Traffic Risk Intelligence Dashboard',
-    summary: 'Built an end-to-end streaming pipeline quantifying real-time operational risk.',
-    problem: 'Operations teams lacked real-time visibility into traffic and weather disruptions, causing unmanaged delays and reactive planning.',
-    solution: 'Implemented a streaming data pipeline with Kafka and Airflow to aggregate data into BigQuery. Visualized the risk metrics proactively in a Tableau dashboard.',
-    results: ['Identified 20% weather-disruption correlation previously untracked by ops teams'],
-    techStack: ['Kafka', 'Airflow', 'BigQuery', 'Tableau'],
-    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1000',
     link: '#'
   },
   {
@@ -33,25 +22,14 @@ export const projects = [
     link: '#'
   },
   {
-    id: 'saas-retention',
-    title: 'SaaS User Retention Analysis',
-    summary: 'Analyzed user engagement metrics to predict churn and deploy proactive retention strategies.',
-    problem: 'Monthly recurring revenue was impacted by an unexpected churn spike among cohort users after month 3.',
-    solution: 'Developed a cohort analysis framework using SQL and Python. Created a Looker dashboard to track active product usage daily.',
-    results: ['Implemented early warning alerts for falling engagement', 'Reduced Q3 churn by 5%'],
-    techStack: ['SQL', 'Looker', 'Snowflake', 'Python'],
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000',
-    link: '#'
-  },
-  {
-    id: 'llm-automation',
-    title: 'LLM-Powered Artifact Review System',
-    summary: 'Designed a Groq-powered multi-agent system to analyze student artifacts and generate structured feedback.',
-    problem: 'Mentors were spending excessive manual hours reviewing and providing qualitative feedback on student project submissions.',
-    solution: 'Integrated Claude and Groq into a scalable multi-agent pipeline to automatically parse and grade student artifacts, converting unstructured text into structured rubrics.',
-    results: ['Reduced manual mentor review effort significantly', 'Standardized 1M+ records'],
-    techStack: ['Groq LLM', 'Claude CLI', 'Python', 'Prompt Engineering'],
-    image: 'https://images.unsplash.com/photo-1620712948343-008423675ce2?auto=format&fit=crop&q=80&w=1000',
+    id: 'prd-collection',
+    title: 'Product Requirements Documents',
+    summary: 'My take on products I use every day — breaking down what works, what doesn\'t, and how I\'d improve them.',
+    problem: 'Most product feedback is anecdotal. I wanted to apply structured product thinking to tools I interact with daily, documenting real pain points and proposing concrete feature improvements the way a PM would.',
+    solution: 'Wrote a series of PRDs for apps across productivity, ops, and analytics — covering user personas, problem statements, success metrics, and prioritized feature recommendations grounded in real usage.',
+    results: ['Documented PRDs across 3+ product categories', 'Applied RICE scoring and Jobs-to-be-Done frameworks', 'Demonstrates end-to-end product thinking from discovery to spec'],
+    techStack: ['Product Strategy', 'PRD Writing', 'JTBD Framework', 'RICE Scoring', 'User Research'],
+    image: 'https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?auto=format&fit=crop&q=80&w=1000',
     link: '#'
   }
 ];

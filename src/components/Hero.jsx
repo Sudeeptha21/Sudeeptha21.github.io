@@ -24,7 +24,7 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
           >
-            <motion.div variants={itemVariants} style={{ marginBottom: '1rem' }}>
+            <motion.div variants={itemVariants} style={{ marginBottom: '1.25rem' }}>
               <span style={{ 
                 display: 'inline-block', 
                 padding: '0.25rem 1rem', 
@@ -35,16 +35,19 @@ const Hero = () => {
                 fontSize: '0.875rem',
                 border: '1px solid rgba(99, 102, 241, 0.2)'
               }}>
-                Business & Product Analyst
+                Strategic Operations Manager
               </span>
             </motion.div>
-            
-            <motion.h1 variants={itemVariants} style={{ fontSize: '4rem', marginBottom: '1.5rem', lineHeight: '1.1' }}>
-              Hi, I'm <span style={{ background: 'linear-gradient(to right, #6366f1, #ec4899)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Sudeeptha Sivarajan</span>
+
+            <motion.h1 variants={itemVariants} style={{ fontSize: '3.5rem', marginBottom: '1.25rem', lineHeight: '1.15' }}>
+              Hi, here's a little about me, I'm{' '}
+              <span style={{ background: 'linear-gradient(to right, #6366f1, #ec4899)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+                Sudeeptha Sivarajan
+              </span>
             </motion.h1>
-            
-            <motion.p variants={itemVariants} style={{ fontSize: '1.25rem', color: 'var(--text-secondary)', marginBottom: '2.5rem', maxWidth: '600px' }}>
-              I build AI-driven data solutions and translate complex data into scalable systems that drive user and business impact. Over 4 years of experience delivering actionable intelligence.
+
+            <motion.p variants={itemVariants} style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', marginBottom: '2.5rem', maxWidth: '580px' }}>
+              Strategic Operations Manager at Grant Associates, with a background in data analytics and product thinking. I turn messy operations into clean systems, and complex data into decisions that actually move the needle.
             </motion.p>
             
             <motion.div variants={itemVariants} style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
@@ -62,45 +65,7 @@ const Hero = () => {
               </a>
             </motion.div>
           </motion.div>
-          
-          <motion.div 
-            style={{ flex: '1 1 300px', display: 'flex', justifyContent: 'center' }}
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-          >
-            <div style={{ position: 'relative', width: '350px', height: '350px' }}>
-              {/* Decorative background ring */}
-              <div style={{
-                position: 'absolute',
-                top: '-5%', left: '-5%', right: '-5%', bottom: '-5%',
-                background: 'linear-gradient(45deg, var(--accent-color), #ec4899)',
-                borderRadius: '50%',
-                opacity: 0.2,
-                filter: 'blur(20px)',
-                animation: 'pulse 4s infinite alternate'
-              }}></div>
-              
-              {/* Headshot Placeholder Image */}
-              <div className="glass" style={{
-                width: '100%', height: '100%',
-                borderRadius: '50%',
-                position: 'relative',
-                overflow: 'hidden',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                border: '4px solid rgba(255, 255, 255, 0.1)',
-              }}>
-                <img 
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800" 
-                  alt="Sudeeptha Sivarajan Placeholder" 
-                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                />
-              </div>
-            </div>
-          </motion.div>
-          
+
         </div>
       </div>
       
